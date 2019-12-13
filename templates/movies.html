@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+        }
+        .nav {
+            
+            width: 100%;
+            height: 45px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-content: center;
+
+            
+            margin-bottom: 15px;
+        }    
+
+        .link {
+            text-decoration: none;
+            color: black;
+            font-family: 'Raleway', sans-serif;
+
+            padding: 15px;
+            text-align: center;
+        }
+
+        .link:hover {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #808080;
+        } 
+
+        .list {
+            list-style-type: none;
+            margin-top: 10%;
+        }
+
+        .item {
+            text-align: center;
+            margin-bottom: 50px;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .movies {
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            width: 150px;
+        }
+
+        .movies:hover {
+            color: #ff4d4d;
+            font-size: 16px;
+
+            padding: 15px;
+            border: 1px solid #b3b3b3;
+            border-radius: 3px;
+            width: 150px;
+
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="nav">
+        <a class="link" href='/'>Home</a>
+        <a class="link" href='/movies'>Favorite Movies</a>
+        <a class="link" href='/directors'>Favorite Directors</a>
+        <a class="link" href='/contact'>Contact</a>
+    </div>
+
+    <ul class="list">
+        <li class="item"><a class="movies" href="/movies/godfather">The Godfather Series</a></li>
+        <li class="item"><a class="movies" href='/movies/psycho'>Psycho</a></li>
+        <li class="item"><a class="movies" href="/movies/irishman">The Irishman</a></li>
+        <li class="item"><a class="movies" href="/movies/inglorious">Inglorious Basterds</a></li>
+        <li class="item"><a class="movies" href="/movies/killbill">Kill Bill Vol 2</a></li>
+    </ul>
+</body>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        .nav {
+        
+            width: 100%;
+            height: 45px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-content: center;
+         } 
+
+         .link {
+            text-decoration: none;
+            color: black;
+            font-family: 'Raleway', sans-serif;
+
+            padding: 15px;
+            text-align: center;
+        }
+
+        .link:hover {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #808080;
+        } 
+
+        .list {
+            list-style-type: none;
+            margin-top: 10%;
+        }
+
+        .item {
+            text-align: center;
+            margin-bottom: 50px;
+            font-family: 'Raleway', sans-serif;
+        } 
+
+        .directors {
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            width: 150px;
+        }
+
+        .directors:hover {
+            color: #ff4d4d;
+            font-size: 16px;
+
+            padding: 15px;
+            border: 1px solid #b3b3b3;
+            border-radius: 3px;
+            width: 150px;
+
+        } 
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="nav">
+       <a class="link" href='/'>Home</a>
+       <a class="link" href='/movies'>Favorite Movies</a>
+       <a class="link" href='/directors'>Favorite Directors</a>
+       <a class="link" href='/contact'>Contact</a>
+    </div>
+
+    <ul class="list">
+        <li class="item"><a class="directors" href="/directors/tarantino">Quentin Tarantino</a></li>
+        <li class="item"><a class="directors" href="/directors/scorsese">Martin Scorsese</a></li>
+        <li class="item"><a class="directors" href="/directors/anderson">Wes Anderson</a></li>
+        <li class="item"><a class="directors" href="/directors/lynch">David Lynch</a></li>
+        <li class="item"><a class="directors" href="/directors/hitchcock">Alfred Hitchcock</a></li>
+    </ul>
+</body>
